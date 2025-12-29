@@ -1,38 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Godwin | Student Entrepreneur</title>
+<meta charset="UTF-8">
+<title>Godwin | Digital Creator</title>
 <style>
 body {
- font-family: Arial;
- background: #f4f4f4;
- text-align: center;
- padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+}
+header {
+  padding: 60px 20px;
+  text-align: center;
+}
+section {
+  background: white;
+  color: #333;
+  padding: 40px;
+  max-width: 1000px;
+  margin: -50px auto 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 .card {
- background: white;
- padding: 30px;
- max-width: 500px;
- margin: auto;
- border-radius: 10px;
- box-shadow: 0px 0px 10px #ccc;
+  display: inline-block;
+  width: 260px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #f8f9fa;
 }
 button {
- padding: 10px 20px;
- background: #0d6efd;
- color: white;
- border: none;
- border-radius: 5px;
+  background: #0d6efd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #ddd;
 }
 </style>
 </head>
 
 <body>
-<div class="card">
-<h1>Godwin</h1>
-<p>International BN Nursing Student in New Zealand</p>
-<p>Building digital products & online services.</p>
-<button onclick="alert('Email me: your@email.com')">Contact Me</button>
-</div>
+
+<header>
+  <h1>Godwin</h1>
+  <p>Student Entrepreneur | Digital Products | Online Services</p>
+  <a href="#products"><button>Explore My Work</button></a>
+</header>
+
+<section id="products">
+  <h2>My Products</h2>
+
+  <div class="card">
+    <h3>Study Planner</h3>
+    <p>30-day productivity planner for students.</p>
+    <button>Coming Soon</button>
+  </div>
+
+  <div class="card">
+    <h3>Motivation Pack</h3>
+    <p>Daily quote wallpapers.</p>
+    <button>Coming Soon</button>
+  </div>
+
+  <div class="card">
+    <h3>Photography Presets</h3>
+    <p>Professional Lightroom mobile presets.</p>
+    <button>Coming Soon</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2025 Godwin | All rights reserved.</p>
+</footer>
+
 </body>
 </html>
